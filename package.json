@@ -1,0 +1,16 @@
+{
+  "name": "node-red-contrib-rd-station-client",
+  "version": "1.0.0",
+  "description": "A Node-RED node to interact with RD Station API",
+  "author": "Thiago Valentim",
+  "license": "MIT",
+  "keywords": ["node-red", "rd-station", "api"],
+  "node-red": {
+    "nodes": {
+      "rd-station-client": "nodes/rd-station-client.js"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
