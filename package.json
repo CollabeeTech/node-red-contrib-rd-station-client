@@ -1,10 +1,14 @@
 {
-  "name": "node-red-contrib-rd-station-client",
+  "name": "red-contrib-rd-station-client",
   "version": "1.0.0",
   "description": "A Node-RED node to interact with RD Station API",
   "author": "Thiago Valentim",
   "license": "MIT",
-  "keywords": ["node-red", "rd-station", "api"],
+  "keywords": [
+    "node-red",
+    "rd-station",
+    "api"
+  ],
   "node-red": {
     "nodes": {
       "rd-station-client": "nodes/rd-station-client.js"
@@ -12,5 +16,18 @@
   },
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "main": "nodes/rd-station-client.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollabeeTech/node-red-contrib-rd-station-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CollabeeTech/node-red-contrib-rd-station-client/issues"
+  },
+  "homepage": "https://github.com/CollabeeTech/node-red-contrib-rd-station-client#readme"
 }
